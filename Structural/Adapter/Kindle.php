@@ -32,5 +32,6 @@ class Kindle implements EBookInterface
     public function pressNext()
     {
         $this->page++;
+        return;
     }
 }
